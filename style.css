@@ -5,9 +5,16 @@
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     width: 100%;
     height: 48px;
+    color: white;
+}
+
+.navbar-container {
+    display: flex;
 }
 
 .hero-content {
