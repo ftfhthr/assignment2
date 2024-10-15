@@ -54,6 +54,10 @@ img {
     
 }
 
+.subscribe-button:hover {
+    background-color: black;
+}
+
 .feature-section {
     display: flex;
     flex-direction: column;
