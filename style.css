@@ -37,6 +37,7 @@
     top: 0px;
     width: 100%;
     color: white;
+    font-size: 3rem;
 }
 
 img {
@@ -107,4 +108,18 @@ img {
     width: 300px;
     height: 500px;
     list-style-type: disc;
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        font-size: 1rem;
+    }
+
+    .movies {
+        flex-direction: column;
+    }
+
+    .plans {
+        flex-direction: column;
+    }
 }
