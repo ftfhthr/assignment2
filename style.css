@@ -103,16 +103,42 @@ img {
     padding: 80px;
 }
 
-.plans div {
+.plan-container {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
     background-color: white;
     color: black;
-    width: 300px;
+    width: 280px;
     height: 500px;
     margin: 20px;
     list-style-type: disc;
+    border-radius: 60px;
+    padding: 40px;
+}
+
+.plan-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: #d9d9d9;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0px 40px;
 }
 
 @media screen and (max-width: 1200px) {
