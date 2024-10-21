@@ -37,11 +37,14 @@
     top: 0px;
     width: 100%;
     color: white;
-    font-size: 3rem;
 }
 
-img {
-    width: 100%;
+.hero h1 {
+    font-size: 6rem;
+}
+
+.hero p {
+    font-size: 2rem;
 }
 
 .subscribe-button {
@@ -82,6 +85,18 @@ img {
 
 .movies img {
     margin: 20px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.search button {
+    width: 20px;
 }
 
 .pricing {
