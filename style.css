@@ -4,6 +4,10 @@
     font-family: "Inter", sans-serif;
 }
 
+button {
+    cursor: pointer;
+}
+
 .navbar {
     display: flex;
     padding-left: 20px;
@@ -93,10 +97,30 @@
     align-items: center;
     background-color: black;
     color: white;
+    font-size: 2rem;
 }
 
 .search button {
-    width: 20px;
+    width: 60px;
+    padding-right: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.search-bar {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 800px;
+}
+
+.search-bar input {
+    border: none;
+    height: 30px;
+    width: 1000px;
+    font-size: 2rem;
+    padding: 20px;
 }
 
 .pricing {
