@@ -4,6 +4,10 @@
     font-family: "Inter", sans-serif;
 }
 
+body {
+    background-color: black;
+}
+
 button {
     cursor: pointer;
 }
@@ -31,16 +35,21 @@ button {
     color: white;
 }
 
-.hero {
-    background-image: url("bkg.jpg");
+.hero img {
+    position: absolute;
+    opacity: 40%;
+    z-index: -1;    
+}
+
+.hero-content {
     height: 1000px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    top: 0px;
     width: 100%;
     color: white;
+    text-align: center;
 }
 
 .hero h1 {
@@ -49,6 +58,7 @@ button {
 
 .hero p {
     font-size: 2rem;
+    padding: 30px;
 }
 
 .subscribe-button {
